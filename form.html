@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <h1>MY FORMS</h1>
+</head>
+<body>
+<form action="file.php" method="get">
+
+  <div>
+    <label for="fn">first name</label>
+    <input type="text" id="fn" name="fname" requried>
+    <br>
+  </div>
+  <br>
+  <div>
+    <label for="ln">last name</label>
+    <input type="text" id="ln" name="lname">
+  </div>
+   <br>
+   <div>
+    <label for="m">email</label>
+    <input type="email" id="m" value="chkarimullabegam@gmail.com" placeholder="enter your mail" readonly name="mail">
+   </div>
+   <br>
+   <div>
+    <label for="pwd">password</label>
+    <input type="password" id="pwd" name="pswd">
+   </div>
+   <br>
+   <div>
+    <label for="">date of  birth</label>
+    <input type="date" name="dob">
+   </div>
+   
+   <br>
+   Select gender:
+   <div>
+    <input type="radio" name="gender" value="male" id="gen">
+    <label for="gen">male</label>
+    <input type="radio" name="gender" value="female" id="g"> <label for="g">female</label>
+   </div>
+   <br>
+   select course:
+   <div>
+    <input type="checkbox"><label for="">html</label>
+    <input type="checkbox"><label for="">css</label>
+    <input type="checkbox"><label for="">js</label>
+    </div>
+    <br>
+    select option:
+    <select name="brand" id="">
+        select option
+        <optgroup label="mobiles">
+            <option value="samsung">samsung</option>
+            <option value="redme">redme</option>
+            <option value="realme">realme</option>
+
+        </optgroup>
+        <optgroup label="laptops">
+            <option value="dell">dell</option>
+        <option value="lenovo">lenovo</option>
+        <option value="hp">hp</option>
+
+        </optgroup>
+        
+
+    </select>
+    <input type="submit">
+    <input type="reset">
+</form>
+
+    
+</body>
+</html>
