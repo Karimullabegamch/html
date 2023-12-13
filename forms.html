@@ -47,8 +47,8 @@
         
         
             <div class="acdemicYear">
-                <label for="">Academic Year</label>
-                <select name="year" id="" >
+                <label for="y">Academic Year</label>
+                <select name="year" id="y"  >
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
                     <option value="2021">2021</option>
@@ -58,11 +58,11 @@
             
             <br/><br>
             
-                <label for="app date">Application Date</label>  <input type="date" id="app date">
+                <label for="app date">Application Date</label>  <input type="date" id="app date" name="date">
             <br/><br/>
-            <label for="clg name">College Name</label> <input type="text" id="clgname">
+            <label for="clg name">College Name</label> <input type="text" id="clgname" name="clgnmae">
             <br/><br/>
-            <label for="cname">Course Name</label> <input type="text" id="cname">
+            <label for="cname">Course Name</label> <input type="text" id="cname" name="cname">
             </div>
             <div class="ssc">
         
@@ -75,12 +75,12 @@
             <option value="2023">2023</option>
         </select>
         <br> <br/>
-        <label for="marks">Marks obtained</label> <input type="number">
+        <label for="marks">Marks obtained</label> <input type="number" name="marks">
         </div>
         <div id="details">
         <h2 style="color:goldenrod ;">Applicant Details</h2>
-        <label for="name">Applicant Name</label> <input type="text" id="name"><br><br>
-        <label for="mname">Mothers name</label>  <input type="text" id="mname"><br><br>
+        <label for="name">Applicant Name</label> <input type="text" id="name" name="name" required><br><br>
+        <label for="mname">Mothers name</label>  <input type="text" id="mname" name="mname"><br><br>
         <label for="dob">Date of Birth</label> <input type="date" id="dob"> 
         <label >is resident of Ap</label> 
         <input type="radio" name="state" id="state" value="yes"> <label for="state">yes</label>
@@ -88,13 +88,16 @@
         <label for="">caste category </label>  <input type="text"><br><br>
         <label for="">caste</label> <input type="text">   <label for="">sub-caste</label> <input type="text"><br><br>
         <label for="">Gender</label>
-        <input type="radio" name="gen"><label for="">male</label>
-        <input type="radio" name="gen"><label for="">female</label> <br><br>
+        <input type="radio" name="gen" value="male"><label for="">male</label>
+        <input type="radio" name="gen" value="female"><label for="">female</label> <br><br>
         <label for="">Martial Status</label>
-        <input type="radio" name="mstaus"><label for="">Married</label>
-        <input type="radio" name="mstatus"><label for="">Unmarried</label> <br><br>
+        <input type="radio" name="mstaus" value="m"><label for="">Married</label>
+        <input type="radio" name="mstatus" value="um"><label for="">Unmarried</label> <br><br>
     </div>
-
+    <br>
+    <center style="color: blue;"><input type="submit">
+        <input type="reset">
+    </center>
     </form>
 </body>
 </html>
