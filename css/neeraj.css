@@ -1,0 +1,48 @@
+*
+{
+    margin: 10x;
+    background-color:wheat ;
+}
+.head
+{
+   border: 2px solid black;
+   text-align: center;
+   background-color: goldenrod;
+   padding: 40px;
+   position: static ;
+   left: 0px;
+   top:4px;
+}
+#image
+{
+    text-align: center;
+   
+    
+}
+#wiki 
+{
+ border:2px solid goldenrod;
+   text-align: center;
+    
+}
+.history
+{
+    border: 5px solid goldenrod;
+    margin-top: 20px;
+}
+.footer{
+    border: 5px solid goldenrod;
+    margin-top: 20px;
+    border-radius: black;
+    
+}
+#img
+{
+    float:right;
+    padding: 20px;
+}
+/* #div4
+{
+    background-color: azure;
+    position:sticky;
+} */
