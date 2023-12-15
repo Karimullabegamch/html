@@ -1,7 +1,7 @@
 *
 {
     margin: 10x;
-    background-color:wheat ;
+    background-color:burlywood;
 }
 .head
 { 
@@ -11,30 +11,39 @@
    background-color: goldenrod;
    padding: 40px;
    position: sticky ;
-   left: 0px;
+ 
    top:4px;
+   height: 40px;
+
 }
 #image
 {
     text-align: center;
-   
+    
     
 }
-#wiki 
+#wiki a
 {
- border:2px solid goldenrod;
-   text-align: center;
-    
+ text-decoration: none;
+ border: 2px solid black;
+ padding: 3px;
+ background-color: goldenrod;
+ border-radius: 10px;
+ text-align: center;
 }
 .history
 {
     border: 5px solid goldenrod;
     margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
 .footer{
     border: 5px solid goldenrod;
     margin-top: 20px;
     border-radius: black;
+    padding: 10px;
+    border-radius: 10px;
     
 }
 #img
