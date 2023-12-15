@@ -4,12 +4,13 @@
     background-color:wheat ;
 }
 .head
-{
-   border: 2px solid black;
+{ 
+    
+   border: 2px solid goldenrod;
    text-align: center;
    background-color: goldenrod;
    padding: 40px;
-   position: static ;
+   position: sticky ;
    left: 0px;
    top:4px;
 }
